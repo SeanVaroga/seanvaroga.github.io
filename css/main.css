@@ -48,7 +48,7 @@ html {
 }
 
 .main-header {
-	background-color: transparent;
+	background: none;
 	color: white;
 }
 
