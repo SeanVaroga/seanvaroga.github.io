@@ -19,7 +19,7 @@ html {
 	width: 600px;
 	margin: 100px auto 0;
 	border: 1px solid black;
-	background-color: white;
+	background: linear-gradient(#141611,black);
 }
 
 @media (max-width: 600px) {
