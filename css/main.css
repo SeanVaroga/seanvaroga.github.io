@@ -19,7 +19,6 @@ html {
 .contact-card {
 	width: 600px;
 	margin: 100px auto 0;
-	border: 1px solid black;
 	background-color: white;
 }
 
@@ -93,6 +92,12 @@ html {
 	width: 80%;
 	margin: 10px auto;
 	text-indent: 20px;
+}
+
+@media (max-width: 600px) {
+	.body-p {
+		width: 100%;
+	}
 }
 
 /* Footer */
