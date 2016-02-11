@@ -6,6 +6,9 @@
 	// border: 1px solid red;
 	font-size: 16px;
 	font-family: 'Source Sans Pro', sans-serif;
+}
+
+html {
 	background-image: url("../images/background.jpeg");
 	background-size: cover;
 }
