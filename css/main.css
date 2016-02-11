@@ -1,0 +1,97 @@
+/* General */
+
+* {
+	margin: 0;
+	padding: 0;
+	// border: 1px solid red;
+	font-size: 16px;
+}
+
+.contact-card {
+	width: 600px;
+	margin: 100px auto 0;
+	border: 1px solid black;
+}
+
+@media (max-width: 600px) {
+	.contact-card {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.content-body {
+		height: calc(100VH - 228px);
+	}
+
+	.logo {
+		width: 60px;
+	}
+}
+
+/* Header Image */
+
+.profile-pic {
+	padding: 10px 0;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.header-img {
+	width: 80px;
+	border: 1px solid black;
+	display: block;
+	margin: 0 auto;
+}
+
+/* Header - Text */
+
+.contact-card h1 {
+	display: block;
+	font-size: 1.5em;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* Social Icons */
+
+.social-list {
+	width: 300px;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 40px;
+	vertical-align: top;
+}
+
+.social-logos {
+	width: 250px; /* Width should be 250px without border for testing purposes */
+	margin: 0 auto;
+	padding: 10px 0;
+	font-size: 0;
+}
+
+.social-logos li,
+.social-logos a {
+	display: inline-block;
+}
+
+.social-logos li {
+	margin: 0 5px;
+}
+
+/* Body */
+
+.body-p {
+	font-size: 0.9em;
+	width: 80%;
+	margin: 10px auto;
+	text-indent: 20px;
+}
+
+/* Footer */
+
+.main-footer {
+	text-align: center;
+	padding: 5px 0;
+}
