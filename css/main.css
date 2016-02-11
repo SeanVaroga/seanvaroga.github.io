@@ -19,7 +19,6 @@ html {
 .contact-card {
 	width: 600px;
 	margin: 15VH auto 0;
-	background-color: white;
 }
 
 @media (max-width: 600px) {
@@ -105,9 +104,14 @@ html {
 	}
 }
 
+.content-body {
+	background-color: white;
+}
+
 /* Footer */
 
 .main-footer {
 	text-align: center;
 	padding: 5px 0;
+	background-color: white;
 }
