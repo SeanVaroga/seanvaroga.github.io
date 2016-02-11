@@ -16,67 +16,82 @@ html {
 	height: 100VH;
 }
 
+/* Full Contact Card Styles */
+
 .contact-card {
 	width: 600px;
-	margin: 15VH auto 0;
+	margin: 10VH auto 0;
 }
 
 @media (max-width: 600px) {
+
 	.contact-card {
 		width: 100%;
-		margin: 0 auto;
+		margin: 3VH auto 0;
 	}
 
-	.logo {
-		width: 60px;
-	}
 }
+
+/*--------------
+/ HEADER
+/-------------*/
 
 /* Header Image */
 
 .profile-pic {
 	padding: 10px 0;
-	width: 300px;
-	margin: 0 auto;
+	width: 100%;
+}
+
+@media (max-width: 600px) {
+
+	.profile-pic {
+		padding: 5px 0;
+	}
+
 }
 
 .header-img {
 	width: 80px;
-	border: 1px solid black;
 	display: block;
 	margin: 0 auto;
 }
 
-.main-header {
-	background: none;
-	color: white;
-}
-
-/* Header - Text */
+/* Header - Name */
 
 .contact-card h1 {
 	display: block;
 	font-size: 1.5em;
-	margin: 0 auto;
+	margin: 10px 0 0;
 	text-align: center;
+	color: white;
+}
+
+@media (max-width: 600px) {
+
+	.contact-card h1 {
+		margin: 5px 0 0;
+		font-size: 1.4em;
+	}
+
 }
 
 /* Social Icons */
 
 .social-list {
-	width: 300px;
+	width: 350px;
 	margin: 0 auto;
 }
 
 .logo {
-	width: 40px;
+	width: 50px;
 	vertical-align: top;
 }
 
 .social-logos {
-	width: 250px; /* Width should be 250px without border for testing purposes */
+	width: 350px; /* Width should be 250px without border for testing purposes */
 	margin: 0 auto;
-	padding: 10px 0;
+	padding: 30px 0 10px;
 	font-size: 0;
 }
 
@@ -86,26 +101,39 @@ html {
 }
 
 .social-logos li {
-	margin: 0 5px;
+	margin: 0 10px;
+}
+
+@media (max-width: 600px) {
+
+	.logo {
+		width: 40px;
+	}
+
+	.social-logos {
+		padding: 20px 0 5px;
+		width: 300px;
+	}
+
 }
 
 /* Body */
 
 .body-p {
 	font-size: 0.9em;
-	width: 80%;
-	margin: 10px auto;
+	width: 85%;
+	margin: 30px auto 10px;
 	text-indent: 20px;
+	min-height: calc(100VH - 380px);
+	color: white;
 }
 
 @media (max-width: 600px) {
-	.body-p {
-		width: 100%;
-	}
-}
 
-.content-body {
-	background-color: white;
+	.content-body {
+		min-height: calc(100VH - 280px);
+	}
+
 }
 
 /* Footer */
@@ -113,5 +141,5 @@ html {
 .main-footer {
 	text-align: center;
 	padding: 5px 0;
-	background-color: white;
+	color: white;
 }
