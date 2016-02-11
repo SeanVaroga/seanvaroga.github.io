@@ -28,10 +28,6 @@ html {
 		margin: 0 auto;
 	}
 
-	.content-body {
-		height: calc(100VH - 228px);
-	}
-
 	.logo {
 		width: 60px;
 	}
