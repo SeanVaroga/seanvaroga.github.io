@@ -32,6 +32,13 @@ html {
 
 }
 
+@media (max-height: 420px) {
+	
+	.contact-card {
+		margin: 1VH auto 0;
+	}
+}
+
 /*--------------
 / HEADER
 /-------------*/
