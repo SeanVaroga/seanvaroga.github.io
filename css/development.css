@@ -9,186 +9,14 @@
 }
 
 html {
-	// background-image: url("../images/background.jpeg");
-	// background-size: 100%;
-	// background-repeat: no-repeat;
-	// background-color: #141611;
-	background-color: grey;
+	background-image: url("../images/background.jpeg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: #141611;
 	height: 100VH;
-}
-
-/* Full Contact Card Styles */
-
-.contact-card {
-	width: 600px;
-	margin: 10VH auto 0;
-	background-color: black;
 	color: white;
 }
 
-@media (max-width: 600px) {
-
-	.contact-card {
-		width: 100%;
-		margin: 3VH auto 0;
-	}
-
-}
-
-@media (max-height: 420px) {
-	
-	.contact-card {
-		margin: 1VH auto 0;
-	}
-}
-
-/*--------------
-/ HEADER
-/-------------*/
-
-/* Header Image */
-
-.profile-pic {
-	padding: 10px 0;
-	width: 100%;
-}
-
-@media (max-width: 600px) {
-
-	.profile-pic {
-		padding: 5px 0;
-	}
-
-}
-
-.header-img {
-	width: 80px;
-	display: block;
-	margin: 0 auto;
-}
-
-/* Header - Name */
-
-.contact-card h1 {
-	display: block;
-	font-size: 1.5em;
-	margin: 10px 0 0;
-	text-align: center;
-	color: white;
-}
-
-@media (max-width: 600px) {
-
-	.contact-card h1 {
-		margin: 5px 0 0;
-		font-size: 1.4em;
-	}
-
-}
-
-/* Social Icons */
-
-.social-list {
-	margin: 0 auto;
-}
-
-.logo {
-	width: 50px;
-	vertical-align: top;
-	border-radius: 100%;
-}
-
-.social-list {
-	max-width: 60%;
-}
-
-.social-logos {
-	display: flex;
-	justify-content: space-around;
-}
-
-.social-logos li,
-.social-logos a {
-	display: inline-block;
-	border-radius: 100%;
-}
-
-.social-logos li {
-	margin: 0 10px;
-}
-
-// @media (max-width: 600px) {
-
-// 	.logo {
-// 		width: 40px;
-// 	}
-
-// 	.social-logos {
-// 		padding: 20px 0 5px;
-// 		width: 300px;
-// 	}
-
-// }
-
-/* Body */
-
-.body-p {
-	font-size: 0.9em;
-	width: 85%;
-	margin: 30px auto 10px;
-	text-indent: 20px;
-	min-height: calc(1000VH - 380px);
-	color: white;
-}
-
-@media (max-width: 600px) {
-
-	.content-body {
-		min-height: calc(100VH - 280px);
-	}
-
-}
-
-/* Footer */
-
-.main-footer {
-	text-align: center;
-	padding: 5px 0;
-	color: white;
-}
-
-.button {
-	width: 40%;
-	display: block;
-	margin: 0 auto;
-	margin-top: 20px;
-}
-
-.img-a {
-	width: 80px;
-	display: block;
-	margin: 0 auto;
-}
-
-.profile-pic {
-	width: 80px;
-	margin: 0 auto;
-}
-
-
-
-/* Development */
-
-// .dev-header {
-// 	text-align: center;
-// 	color: white;
-// 	background-color: blue;
-// 	padding: 20px 0;
-// 	z-index: 5;
-// 	position: fixed;
-// 	width: 100%;
-// 	top: 0px;
-// }
 
 .top,
 .middle,
@@ -201,16 +29,18 @@ html {
 	height: 200px;
 }
 
-.button {
-	margin: 90px 0;
-	display: inline-block;
-	font-family: 'Roboto', sans-serif;
-}
+/*-------------- 
+/  HEADER
+--------------*/
 
 .wip-Header {
 	font-size: 48px;
 	padding-top: 20px;
 }
+
+/*-------------- 
+/  SOCIAL
+--------------*/
 
 .wip-Social-links li {
 	display: inline-block;
@@ -243,13 +73,18 @@ html {
 	padding-top: 12px;
 }
 
-html {
-	background-image: url("../images/background.jpeg");
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-color: #141611;
-	height: 100VH;
-	color: white;
+@media (max-width: 683px) {
+	.wip-Header {
+		font-size: 32px;
+	}
+
+	.wip-Social-links li a:link,
+	.wip-Social-links li a:visited,
+	.wip-Social-links li a:hover,
+	.wip-Social-links li a:active {
+		color: white;
+		font-size: 18px;
+	}
 }
 
 
