@@ -9,113 +9,166 @@
 }
 
 html {
-	background-image: url("../images/Background.png");
-	background-size: 100% 100%;
-	background-repeat: vertical;
-	background-color: #141611;
+	// background-image: url("../images/background.jpeg");
+	// background-size: 100%;
+	// background-repeat: no-repeat;
+	// background-color: #141611;
+	background-color: grey;
 	height: 100VH;
-	color: white;
 }
 
+/* Full Contact Card Styles */
 
-.top,
-.middle,
-.bottom {
+.contact-card {
+	width: 600px;
+	margin: 10VH auto 0;
+}
+
+@media (max-width: 600px) {
+
+	.contact-card {
+		width: 100%;
+		margin: 3VH auto 0;
+	}
+
+}
+
+@media (max-height: 420px) {
+	
+	.contact-card {
+		margin: 1VH auto 0;
+	}
+}
+
+/*--------------
+/ HEADER
+/-------------*/
+
+/* Header Image */
+
+.profile-pic {
+	padding: 10px 0;
+	width: 100%;
+}
+
+@media (max-width: 600px) {
+
+	.profile-pic {
+		padding: 5px 0;
+	}
+
+}
+
+.header-img {
+	width: 80px;
+	display: block;
+	margin: 0 auto;
+}
+
+/* Header - Name */
+
+.contact-card h1 {
+	display: block;
+	font-size: 1.5em;
+	margin: 10px 0 0;
 	text-align: center;
-}
-
-.middle {
-	background-color: rgba(0,0,0,0);
-	height: 180px;
-}
-
-/*-------------- 
-/  HEADER
---------------*/
-
-.wip-Header {
-	font-size: 48px;
-	padding-top: 20px;
-}
-
-/*-------------- 
-/  SOCIAL
---------------*/
-
-.wip-Social-links li {
-	display: inline-block;
-	padding: 0 20px;
-	margin-top: 30px;
-}
-
-.wip-Social-links li a {
-	text-decoration: none;
-}
-
-.wip-Social-links li a:link,
-.wip-Social-links li a:visited,
-.wip-Social-links li a:hover,
-.wip-Social-links li a:active {
 	color: white;
-	font-size: 36px;
 }
 
-.wip-Social-links {
-	list-style: none;
+@media (max-width: 600px) {
+
+	.contact-card h1 {
+		margin: 5px 0 0;
+		font-size: 1.4em;
+	}
+
 }
 
-.addBorder {
-	border-right: 1px solid white;
+/* Social Icons */
+
+.social-list {
+	margin: 0 auto;
 }
 
-.content {
-	padding-top: 12px;
+.logo {
+	width: 50px;
+	vertical-align: top;
+	border-radius: 100%;
 }
 
-@media (max-width: 683px) {
-	.wip-Header {
-		font-size: 32px;
-	}
-
-	.wip-Social-links li a:link,
-	.wip-Social-links li a:visited,
-	.wip-Social-links li a:hover,
-	.wip-Social-links li a:active {
-		color: white;
-		font-size: 18px;
-	}
-
-	.middle {
-		background-color: rgba(0,0,0,0);
-	}
+.social-list {
+	max-width: 60%;
 }
 
-@media (max-width: 453px) {
-	.wip-Header {
-		font-size: 24px;
-	}
-
-	.wip-Social-links li a:link,
-	.wip-Social-links li a:visited,
-	.wip-Social-links li a:hover,
-	.wip-Social-links li a:active {
-		color: white;
-		font-size: 18px;
-	}
-
-	.wip-Social-links li {
-		display: block;
-		padding: 0 20px;
-		margin-top: 10px;
-		border: none;
-	}
-
-	.middle {
-		background-color: rgba(0,0,0,0);
-	}
+.social-logos {
+	display: flex;
+	justify-content: space-around;
 }
 
+.social-logos li,
+.social-logos a {
+	display: inline-block;
+	border-radius: 100%;
+}
 
+.social-logos li {
+	margin: 0 10px;
+}
 
+// @media (max-width: 600px) {
 
+// 	.logo {
+// 		width: 40px;
+// 	}
 
+// 	.social-logos {
+// 		padding: 20px 0 5px;
+// 		width: 300px;
+// 	}
+
+// }
+
+/* Body */
+
+.body-p {
+	font-size: 0.9em;
+	width: 85%;
+	margin: 30px auto 10px;
+	text-indent: 20px;
+	min-height: calc(100VH - 380px);
+	color: white;
+}
+
+@media (max-width: 600px) {
+
+	.content-body {
+		min-height: calc(100VH - 280px);
+	}
+
+}
+
+/* Footer */
+
+.main-footer {
+	text-align: center;
+	padding: 5px 0;
+	color: white;
+}
+
+.button {
+	width: 40%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.img-a {
+	width: 80px;
+	display: block;
+	margin: 0 auto;
+}
+
+.profile-pic {
+	width: 80px;
+	margin: 0 auto;
+}
