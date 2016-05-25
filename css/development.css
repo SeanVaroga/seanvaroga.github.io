@@ -22,6 +22,8 @@ html {
 .contact-card {
 	width: 600px;
 	margin: 10VH auto 0;
+	background-color: black;
+	color: white;
 }
 
 @media (max-width: 600px) {
@@ -135,7 +137,7 @@ html {
 	width: 85%;
 	margin: 30px auto 10px;
 	text-indent: 20px;
-	min-height: calc(100VH - 380px);
+	min-height: calc(1000VH - 380px);
 	color: white;
 }
 
@@ -172,4 +174,86 @@ html {
 	width: 80px;
 	margin: 0 auto;
 }
+
+
+
+/* Development */
+
+// .dev-header {
+// 	text-align: center;
+// 	color: white;
+// 	background-color: blue;
+// 	padding: 20px 0;
+// 	z-index: 5;
+// 	position: fixed;
+// 	width: 100%;
+// 	top: 0px;
+// }
+
+.top,
+.middle,
+.bottom {
+	text-align: center;
+}
+
+.middle {
+	background-color: rgba(0,0,0,0.6);
+	height: 200px;
+}
+
+.button {
+	margin: 90px 0;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+}
+
+.wip-Header {
+	font-size: 48px;
+	padding-top: 20px;
+}
+
+.wip-Social-links li {
+	display: inline-block;
+	font-size: 36px;
+	padding: 0 20px;
+	margin-top: 30px;
+}
+
+.wip-Social-links li a {
+	text-decoration: none;
+}
+
+.wip-Social-links li a:link,
+.wip-Social-links li a:visited,
+.wip-Social-links li a:hover,
+.wip-Social-links li a:active {
+	color: white;
+	font-size: 36px;
+}
+
+.wip-Social-links {
+	list-style: none;
+}
+
+.addBorder {
+	border-right: 1px solid white;
+}
+
+.content {
+	padding-top: 12px;
+}
+
+html {
+	background-image: url("../images/background.jpeg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: #141611;
+	height: 100VH;
+	color: white;
+}
+
+
+
+
+
 
