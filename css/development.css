@@ -10,7 +10,7 @@
 
 html {
 	background-image: url("../images/Background.png");
-	background-size: 225%;
+	background-size: 100% 100%;
 	background-repeat: vertical;
 	background-color: #141611;
 	height: 100VH;
