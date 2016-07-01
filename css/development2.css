@@ -1,0 +1,142 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+}
+
+#nav {
+	width: 100%;
+	color: white;
+	background-color: black;
+	display: block;
+	text-align: center;
+	position: fixed;
+	top: 0;
+}
+
+#nav {
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+	padding: 1.5% 0;
+}
+
+.name,
+.site-anchors {
+	width: 50%;
+	display: inline-block;
+	// border: 1px solid red;
+}
+
+.name,
+.site-anchors,
+.site-anchors li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.name,
+.site-anchors {
+	width: 48%;
+}
+
+.name,
+.site-anchors li {
+	font-size: 1.5em;
+	margin: 0 30px;
+}
+
+.name {
+	text-align: left;
+
+}
+
+.site-anchors {
+	list-style: none;
+	text-align: right;
+}
+
+.site-anchors li {
+	text-align: right;
+}
+
+.name,
+.site-anchors {
+	width: 45%;
+	display: inline-block;
+}
+
+.site-anchors {
+	margin-right: 0;
+	text-align: center;
+}
+
+.li-last {
+	margin-right: 0;
+}
+
+.nav-content {
+	width: 85%;
+	margin: 0 7.5%;
+	// border: 1px solid red;
+}
+
+.name {
+	margin: 0;
+	padding: 0;
+}
+
+.name,
+.site-anchors {
+	width: 50%;
+}
+
+.site-anchors {
+	text-align: right;
+	margin: 0;
+	padding: 0;
+}
+
+.site-anchors li {
+	margin: 0;
+}
+
+.site-anchors li {
+	margin-left: 30px;
+}
+
+a:link {
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+a:visited {
+	color: white;
+}
+
+/* BODY CONTENT */
+
+.body-content {
+	display: block;
+	width: 90%;
+	margin: 0 5%;
+	border: 1px solid red;
+}
+
+.about,
+.projects,
+.social {
+	width: 95%;
+	text-align: center;
+	background-color: gray;
+	color: white;
+	height: 40VH;
+	display: inline-block;
+	margin: 0 2.5% 50px 2.5%;
+}
+
+.about {
+	margin-top: 50px;
+}
