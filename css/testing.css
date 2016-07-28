@@ -24,15 +24,23 @@
 }
 
 .nav-content {
-	width: 81%;
+	width: 65%;
 	margin: 0 9.5%;
-	display: flex;
-	justify-content: space-between;
+}
+
+.nav-pic {
+	width: 28px;
+	height: 28px;
+	border-radius: 100%;
+	display: inline-block;
+	border: 1px solid red;
 }
 
 .name,
 .site-anchors {
-	width: 50%;
+	width: 40%;
+	border: 1px solid red;
+	display: inline-block;
 }
 
 .site-anchors li {
@@ -156,13 +164,30 @@
 /* Projects Styling */
 
 .projects-content {
-	width: 90%;
-	margin: 10px 5%;
+	width: 95%;
+	margin: 2.5% 2.5%;
 }
 
 .projects-header {
 	font-size: 24px;
 	text-align: left;
+}
+
+// .projects-content {
+// 	width: 95%;
+// 	margin: 2.5% 2.5%;
+// 	border: 1px solid red;
+// }
+
+.projects-img {
+	display: none;
+}
+
+.projects-p {
+	width: 100%;
+	margin-top: 10px;
+	text-align: left;
+	text-indent: 15px;
 }
 
 /* Social Styling */
